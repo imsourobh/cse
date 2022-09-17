@@ -2,7 +2,8 @@
 #include <math.h>
 int main()
 {
-    int n=0,dec=10,bin=0;
+    int n=0,dec,bin=0;
+    scanf("%d",&dec);
     
     printf("Binary equivalent of %d is :",dec);
     do{
